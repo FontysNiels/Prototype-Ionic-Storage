@@ -1,4 +1,4 @@
-# AEM App Connect 
+# AEM App Connect (not this project's README)
 
 ---
 
