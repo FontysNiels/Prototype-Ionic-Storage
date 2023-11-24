@@ -33,8 +33,18 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { Filesystem, Directory } from '@capacitor/filesystem';
 
 setupIonicReact();
+
+const createCacheFolder = async () => {
+  await Filesystem.mkdir({
+    directory: Directory.Cache,
+    path: 'CACHED-IMG'
+  })
+}
+
+createCacheFolder();
 
 const App: React.FC = () => (
   <IonApp>
