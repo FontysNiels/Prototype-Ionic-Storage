@@ -84,7 +84,7 @@ After changing these files you can go ahead to the next step.
 
 By filling the variables inside of the [`.env`](#env) file the project will be able to receive data from your AEM project. The next step in is adding CSS to your project to make it look like the AEM project. Styling your project isn't as straight forward as you might think. In the next bit of documentation we'll try to explain how to style your application the best way possible.
 
-### Native Look
+#### Native Look
 If you want to have a look at how to project will look on the different native platforms you can go to `App.tsx`. In this file there is a function that changes the look of the project to a native version. This code looks like:
 ```
 setupIonicReact({
