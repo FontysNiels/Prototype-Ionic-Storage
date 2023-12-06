@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonImg, IonPage, IonSearchbar, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import React, { useState, useEffect } from 'react';
 import './Tab1.css';
@@ -194,19 +194,72 @@ const Tab1: React.FC = () => {
 
 
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+    <IonPage >
+
       <IonContent fullscreen>
+        <IonHeader>
+          <IonToolbar >
+
+            <IonImg
+              src="https://docs-demo.ionic.io/assets/madison.jpg"
+              alt="The Wisconsin State Capitol building in Madison, WI at night"
+            ></IonImg>
+
+            <IonSearchbar ></IonSearchbar>
+
+          </IonToolbar>
+        </IonHeader>
+        {/* <IonHeader collapse="condense">
+          <IonToolbar>
+            <IonTitle>Toolbar</IonTitle>
+          </IonToolbar>
+          <IonToolbar>
+            <IonSearchbar></IonSearchbar>
+          </IonToolbar>
+        </IonHeader> */}
         {/* {img} */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
         <img src={src} alt='cachedImage' />
         <button onClick={() => ClearCache()}>hahahh</button>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 12</IonTitle>
+            <IonTitle size="large">Tab 1 title</IonTitle>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 1 page" />
